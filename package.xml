@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+    <name>creareeucookielaw</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license>OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Add a discreet EU Cookie privacy banner to your website which shows up once in accordance with EU guidelines.</summary>
+    <description>This module adds a very simple privacy policy banner to your website which shows up only once when the customer visits the site. This is in accordance with the latest EU Cookie Law.&#xD;
+&#xD;
+The banner text and link is fully customisable in the Magento administration area, and can be translated per store or website view.</description>
+    <notes>Initial Release</notes>
+    <authors><author><name>Adam Moss</name><user>CreareGroup</user><email>magento@creare.co.uk</email></author></authors>
+    <date>2013-03-08</date>
+    <time>10:49:28</time>
+    <contents><target name="magelocal"><dir name="Creare"><dir name="Eucookielaw"><dir name="etc"><file name="adminhtml.xml" hash="0986fee5af8fe7c96b1541dacfc814ab"/><file name="config.xml" hash="7295833e6fef5edc937bbd8f16cf7768"/><file name="system.xml" hash="c77b4f402c77914ab3c0b0bea2f5a1ce"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Creare_Eucookielaw.xml" hash="c90e439bb6db42a6fbda93ef0256722a"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="eucookielaw"><file name="js.phtml" hash="6699019a7124c05c4fa7ce254076655c"/></dir></dir><dir name="layout"><file name="eucookielaw.xml" hash="b04b3ea67d122ca21dc03250c19022b3"/></dir></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="css"><file name="eucookielaw.css" hash="c753c839803456db7d0f668c42c012d6"/></dir><dir name="js"><file name="eucookielaw.js" hash="86588ebc828a8f7f5f66bed27732efd1"/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/creareeucookielaw",
+    "type": "magento-module",
+    "license": "OSL-v3.0",
+    "homepage": "",
+    "description": "Add a discreet EU Cookie privacy banner to your website which shows up once in accordance with EU guidelines.",
+    "authors": [
+    {
+        "name": "Adam Moss",
+        "email": "magento@creare.co.uk"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
