@@ -1,3 +1,5 @@
+
+
 ## Original Package Description
 
 Add a discreet EU Cookie privacy banner to your website which shows up once in accordance with EU guidelines.
